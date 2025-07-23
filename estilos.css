@@ -36,6 +36,27 @@ body {
   margin-bottom: 20px;
   animation: latido 1s infinite;
 }
+@media (max-width: 600px) {
+  .mensaje {
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .inicio h1 {
+    font-size: 1.5rem;
+  }
+
+  .inicio p {
+    font-size: 1rem;
+  }
+
+  .corazon {
+    width: 80px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+}
+
 
 @keyframes latido {
   0%, 100% {
